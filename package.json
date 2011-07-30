@@ -1,0 +1,27 @@
+{ "name": "chitchat"
+, "description": "A Simple Blog"
+, "author": "Tom Wilson"
+, "version": "0.0.0"
+, "licenses": [
+  { "type": "MIT"
+  , "url": "https://github.com/twilson63/chitchat/raw/master/LICENSE"
+  }]
+, "repository":
+  { "type": "git"
+  , "url": "https://github.com/twilson63/chitchat.git"
+  }
+, "main": "./server.js"
+, "dependencies":
+  {"express": ">=2.4.3"
+  , "coffeekup": ">=0.2.x"
+  , "mongoose": ">=1.7.4"
+  }
+, "devDependencies":
+  { "jasmine-node": ">=1.0.6"
+  , "coffee-script": ">=1.1.1"
+  , "docco": "0.3.x"
+  }
+, "engines":
+  { "node": "~0.4"
+  }
+}
